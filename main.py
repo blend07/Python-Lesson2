@@ -56,3 +56,28 @@ LisaList = [1,2,3,4,55,6,6,6]
 unique_list = set(LisaList)
 
 print(unique_list)
+
+#Conditionals
+
+age = int(input("Sa vjec je?"))
+
+if age >= 18:
+    print("Ti je i rritur")
+else:
+    print("Ti je i vogel")
+
+if age <= 17:
+    print("Nuk ke te drejte te votosh")
+elif age >=18 and age <= 65:
+    print("Ke te drejte te votosh")
+else :
+    print("Mund te mos votosh")
+
+#in
+
+setEmra = {"Medina", "Joni", "Andi", "Leoni"}
+
+found = "Blend" in setEmra
+
+print(found)
+    
